@@ -2,11 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ##Instruction to run next-app-assessment:
 
-1> Move to the desire location and open a terminal :- git clone https://github.com/Sumir123/next-app-assessment.git
-2> In terminal:- code . (Opens VS Code)
-3> In VS Code terminal :- cd .\next-app-assessment\
-4> In VS Code terminal :- npm install (install required node_modules)
-5> In VS Code terminal :- npm run dev 
+1> Move to the desire location and open a terminal :-<i> git clone https://github.com/Sumir123/next-app-assessment.git </i> <br/>
+2> In terminal:- <i>code . </i>(Opens VS Code)<br/>
+3> In VS Code terminal :- <i>cd .\next-app-assessment\ </i><br/>
+4> In VS Code terminal :- <i>npm install </i>(install required node_modules) <br/>
+5> In VS Code terminal :- <i>npm run dev </i> 
 
 ## Getting Started
 
