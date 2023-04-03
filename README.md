@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+##Instruction to run next-app-assessment:
+
+1> Move to the desire location and open a terminal :-<i> git clone https://github.com/Sumir123/next-assessment.git </i> <br/>
+2> In terminal:- <i>code . </i>(Opens VS Code)<br/>
+3> In VS Code terminal :- <i>cd .\next-app-assessment\ </i><br/>
+4> In VS Code terminal :- <i>npm install </i>(install required node_modules) <br/>
+5> In VS Code terminal :- <i>npm run dev </i> 
+
 ## Getting Started
 
 First, run the development server:
