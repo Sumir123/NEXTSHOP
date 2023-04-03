@@ -28,7 +28,6 @@ const createCategorySlice = (set, get) => ({
     try {
       const res = await axios.get(`${API_BASE_URL}/products/categories`);
       const categoryResponse = res.data;
-      set({ catagories: categoryResponse });
       const categoryCounts = [];
       for (const category of categoryResponse) {
         const res = await axios.get(

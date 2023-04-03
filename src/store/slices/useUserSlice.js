@@ -4,7 +4,6 @@ const API_BASE_URL = "https://dummyjson.com";
 
 const createUserSlice = (set) => ({
   userInfo: "",
-
   username: "kminchelle",
   password: "0lelplR",
   error: "",
@@ -16,6 +15,7 @@ const createUserSlice = (set) => ({
       });
       console.log(res.data);
       set({ userInfo: res.data });
+      set({ error: "" });
     } catch (error) {
       set({ error: error.response.data.message });
       set({ userInfo: "" });
