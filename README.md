@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+ ScreenShots: 
+
+![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/f8b0136b-f6aa-42fb-acde-05130cac57a3)
+
+![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/9c5c738d-effe-4563-82d5-047431843287)
+
+![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/14f96f32-451e-4a28-915c-a335a1ae24ba)
+
+
+
 ##Instruction to run NEXTSHOP:
 
 1> Move to the desire location and open a terminal :- git clone https://github.com/Sumir123/next-assessment.git<br/>
