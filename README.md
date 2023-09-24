@@ -6,6 +6,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/9c5c738d-effe-4563-82d5-047431843287)
 
+![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/40302734-6905-4949-9d48-203249d18764)
+
+
 ![image](https://github.com/Sumir123/NEXTSHOP/assets/71181873/14f96f32-451e-4a28-915c-a335a1ae24ba)
 
 
