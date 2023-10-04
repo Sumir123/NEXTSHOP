@@ -15,7 +15,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ##Instruction to run NEXTSHOP:
 
-1> Move to the desire location and open a terminal :- git clone https://github.com/Sumir123/next-assessment.git<br/>
+1> Move to the desire location and open a terminal :- git clone [https://github.com/Sumir123/next-assessment.git](https://github.com/Sumir123/NEXTSHOP.git)<br/>
 2> In terminal :- cd .\next-assessment\ <br/>
 3> In terminal :- npm install <br/>
 4> In terminal :- npm run dev
