@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import useStore from "@/store/useStore";
 import { useRouter } from "next/router";
+import Link from "next/link";
 const NavBar = () => {
   const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ const NavBar = () => {
       <div className="px-5 md:px-20 py-4  bg-[#1E293B] text-[#CBD5E1] opacity-95 sticky top-0 z-10">
         <div className="flex flex-row justify-between items-center relative">
           <div className="uppercase text-lg font-medium text-[#3B82F6]">
-            <a href="/"> NextShop</a>
+            <Link href="/"> NextShop</Link>
           </div>
           <div className="block md:hidden text-[#CBD5E1] cursor-pointer">
             <AiOutlineMenu onClick={toggleMenu} size={25} />
@@ -37,15 +38,18 @@ const NavBar = () => {
           <div className="md:flex md:flex-row md:items-center md:gap-10 hidden ">
             {tempEmail && (
               <>
-                <a className="hover:text-[#F8FAFC]" href="/products">
+                <Link className="hover:text-[#F8FAFC]" href="/products">
                   Product
-                </a>
-                <a className="hover:text-[#F8FAFC]" href="/products/category">
+                </Link>
+                <Link
+                  className="hover:text-[#F8FAFC]"
+                  href="/products/category"
+                >
                   Product category
-                </a>
-                <a className="hover:text-[#F8FAFC]" href="/dashboard">
+                </Link>
+                <Link className="hover:text-[#F8FAFC]" href="/dashboard">
                   Dashboard
-                </a>
+                </Link>
                 <p className="cursor-pointer" onClick={handleLogout}>
                   Logout
                 </p>
@@ -65,24 +69,24 @@ const NavBar = () => {
               <div className="flex flex-col items-center gap-4">
                 {tempEmail && (
                   <>
-                    <a
+                    <Link
                       className="hover:text-[#F8FAFC] hover:scale-105"
                       href="/products"
                     >
                       Product
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="hover:text-[#F8FAFC] hover:scale-105"
                       href="/products/category"
                     >
                       Product category
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="hover:text-[#F8FAFC] hover:scale-105"
                       href="/dashboard"
                     >
                       Dashboard
-                    </a>
+                    </Link>
                     <p
                       className="hover:text-[#F8FAFC] hover:scale-105 cursor-pointer"
                       onClick={handleLogout}

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiFillStar } from "react-icons/ai";
 
 const ProductList = ({ data }) => {
@@ -8,16 +9,16 @@ const ProductList = ({ data }) => {
           key={product.id}
           className="bg-[#E2E8F1] rounded-lg overflow-hidden shadow-md flex flex-col"
         >
-          <a href={`/products/${product.id}`}>
+          <Link href={`/products/${product.id}`}>
             <img
               className="w-full h-48 object-cover duration-500 hover:opacity-90 hover:scale-95 "
               src={product.thumbnail}
               alt={product.title}
             />
-          </a>
+          </Link>
           <div className="p-4 flex flex-col flex-1">
             <h2 className="text-lg font-bold hover:text-[#3B82F6]">
-              <a href={`/products/${product.id}`}>{product.title}</a>
+              <Link href={`/products/${product.id}`}>{product.title}</Link>
             </h2>
             <p className="mt-2 text-gray-600 flex-1">{product.description}</p>
             <div className="mt-2 flex items-center">

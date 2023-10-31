@@ -18,26 +18,6 @@ const ProductCategoryChart = () => {
   useEffect(() => {
     getAllProductCategory();
     fetchCategories();
-    // const [category, setCategory] = useState([]);
-    // const [categoryCount, setCategoryCount] = useState([]);
-    // const [loading, setLoading] = useState(true);
-    // const categoryCounts = []; //to track number of products per category
-    // const categoryReq = getAllProductCatagories();
-    // categoryReq.then((res) => {
-    //   const categoryResponse = res; // gets all the category
-    //   setCategory(categoryResponse);
-    //   categoryResponse?.map((i) => {
-    //     const getProduct = getAllProductByCatagories(i); // gets all the product of a specific category
-    //     getProduct.then((res) => {
-    //       categoryCounts?.push(res?.total); // push number of products into an array
-    //       if (categoryCounts.length === categoryResponse.length) {
-    //         //if ensure that all the product count has been completed
-    //         setCategoryCount(categoryCounts);
-    //         setLoading(false);
-    //       }
-    //     });
-    //   });
-    // });
   }, []);
 
   ChartJS.register(ArcElement, Tooltip, Legend);
@@ -46,7 +26,7 @@ const ProductCategoryChart = () => {
     labels: categoriesData,
     datasets: [
       {
-        label: "No Of Products",
+        label: "No of Products",
         data: productPerCategoryCount,
         backgroundColor: [
           "#0db38f",

@@ -4,9 +4,9 @@ const ErrorPage = () => {
       <h1>An Error Occurred</h1>
       <h1>404 Page Not Found </h1>
       <span>Go back to </span>
-      <a href="/" className="text-[#2563EB] underline">
+      <Link href="/" className="text-[#2563EB] underline">
         home
-      </a>
+      </Link>
     </div>
   );
 };

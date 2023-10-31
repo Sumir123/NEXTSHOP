@@ -3,7 +3,6 @@ import { createJSONStorage, devtools, persist } from "zustand/middleware";
 import createProductsSlice from "./slices/useProductsSlice";
 import createCategorySlice from "./slices/useCategorySlice";
 import createUserSlice from "./slices/useUserSlice";
-import createMenuSlice from "./slices/useMenuSlice";
 
 const useStore = create(
   devtools(
@@ -12,7 +11,6 @@ const useStore = create(
         ...createProductsSlice(set, get),
         ...createCategorySlice(set, get),
         ...createUserSlice(set, get),
-        ...createMenuSlice(set, get),
       }),
       {
         name: "user-email",
