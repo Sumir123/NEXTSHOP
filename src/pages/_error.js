@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ErrorPage = () => {
   return (
     <div className="text-3xl font-bold text-center py-5 text-slate-800">
